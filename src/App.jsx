@@ -585,6 +585,7 @@ function App() {
       });
     });
 
+
     const calculateProfile = (scores) => {
       const totalScore = Object.values(scores).reduce((sum, score) => sum + score, 0);
       const percentages = {
